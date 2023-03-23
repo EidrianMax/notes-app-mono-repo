@@ -1,0 +1,8 @@
+### user found successfully
+GET http://localhost:3000/api/users/63e91abd2b962aa923d6f142
+
+### user didn't find
+GET http://localhost:3000/api/users/63e4fe203eb111a668d2eb15
+
+### user id malformed
+GET http://localhost:3000/api/users/63e4fe223eb111a668

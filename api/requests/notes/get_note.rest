@@ -1,0 +1,8 @@
+### note found successfully
+GET http://localhost:3000/api/notes/63e923496e558d4fd4e61401
+
+### note didn't find
+GET http://localhost:3000/api/notes/63e4fe203eb111a668d2eb15
+
+### id note malformed
+GET http://localhost:3000/api/notes/63e4fe223eb111a668d2eb1

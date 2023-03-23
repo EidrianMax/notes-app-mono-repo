@@ -1,0 +1,6 @@
+### delete a note successfully
+DELETE http://localhost:3000/api/notes/63e923496e558d4fd4e61401
+
+### note didn't find
+DELETE http://localhost:3000/api/notes/63e4ff59d0c860aed45fcc7c
+

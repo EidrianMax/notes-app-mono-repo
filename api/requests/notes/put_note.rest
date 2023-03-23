@@ -1,0 +1,15 @@
+### note update successfully
+PUT http://localhost:3000/api/notes/63e923496e558d4fd4e61401
+Content-Type: application/json
+
+{
+  "content": "New content for this note",
+  "important": true
+}
+
+### note doesn't have a content
+PUT http://localhost:3000/api/notes/63e923496e558d4fd4e61401
+Content-Type: application/json
+
+{
+}

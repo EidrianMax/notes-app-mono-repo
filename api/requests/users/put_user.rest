@@ -1,0 +1,24 @@
+### modify name
+PUT http://localhost:3000/api/users/64139e3ea916e5f3f93180a4
+Content-Type: application/json
+
+{
+  "name": "Adriano"
+}
+
+### modify name and username
+PUT http://localhost:3000/api/users/64139e3ea916e5f3f93180a4
+Content-Type: application/json
+
+{
+  "name": "Adriano",
+  "username": "pepito"
+}
+
+### modify password
+PUT http://localhost:3000/api/users/64139e3ea916e5f3f93180a4
+Content-Type: application/json
+
+{
+  "password": "123456789"
+}
